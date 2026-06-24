@@ -10,7 +10,6 @@ This repository contains the project planning, design documents, and the initial
 student-performance-analytics-portal/
 ├── backend/                  # Express.js REST API Server
 │   ├── config/               # Database Connection Setup
-│   ├── controllers/          # API Route Request Handlers
 │   ├── middleware/           # JWT & Role Authentication Middleware
 │   ├── models/               # MongoDB Mongoose Schemas
 │   ├── routes/               # Express Router Definitions
@@ -22,7 +21,7 @@ student-performance-analytics-portal/
 │   │   ├── styles/           # CSS Tokens & Glassmorphic Layouts
 │   │   └── App.jsx           # Main Interactive Wireframe Client
 │   └── package.json          # Frontend Dependencies
-├── pdf_exports/              # Design Planning & Blueprint PDFs
+├── docs/                     # Design Planning, Blueprints & Assets
 └── README.md                 # Setup & Execution Guide (This File)
 ```
 
@@ -30,17 +29,22 @@ student-performance-analytics-portal/
 
 ## 📋 Design & Planning Blueprint Sheets
 
-All design specifications have been compiled into print-ready PDFs located in the [pdf_exports/](./pdf_exports/) directory:
-1. `0_Project_Walkthrough.pdf` — Overview of the prototype client and Figma screenshots.
-2. `1_Architecture_Diagram.pdf` — High-level MERN stack client-server data flow diagram.
-3. `2_Database_Schema.pdf` — Mongoose schemas, indexes, and collections detail.
-4. `3_API_Documentation.pdf` — Endpoint routes, request/response models, and roles check.
-5. `4_User_Roles.pdf` — Permissions matrix mapping Admin, Teacher, and Student scopes.
-6. `5_Wireframes_Spec.pdf` — High-fidelity Figma visual mockups for all core pages.
-
-*Note: Visual wireframes were designed using the **Lumina Analytics** glassmorphic dark theme inside the Figma/Stitch workspace under project ID: `projects/3602507402818866855`.*
+All system design blueprints are available as markdown specifications located in the [docs/](./docs/) directory:
+1. **[System Architecture Diagram](./docs/architecture_diagram.md)** — High-level MERN stack client-server data flow diagram.
+2. **[Database Schema Draft](./docs/database_schema.md)** — Mongoose schemas, indexes, and collections detail.
+3. **[REST API Documentation](./docs/api_documentation.md)** — Endpoint routes, request/response models, and role permissions.
+4. **[User Access Roles](./docs/user_roles.md)** — Permissions matrix mapping Admin, Teacher, and Student scopes.
+5. **[Wireframes Spec](./docs/wireframes.md)** — Visual mockups spec designed using the **Lumina Analytics** glassmorphic dark theme.
 
 ---
+
+## 🎥 Project Walkthrough Video
+
+Watch the interactive video walkthrough demonstrating the portal prototype client:
+* **[Project Demo Video](./docs/assets/project_video.mp4)**
+
+---
+
 
 ## 🚀 Setup & Execution Instructions
 
