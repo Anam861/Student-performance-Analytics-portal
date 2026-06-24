@@ -6,6 +6,9 @@ This document outlines the high-level system architecture and request flow for t
 
 The system follows a classic 3-tier client-server architecture model:
 
+![MERN Stack System Architecture Diagram](assets/architecture_diagram.png)
+
+### System Flowchart Blueprint
 ```mermaid
 graph TD
     subgraph Client Tier (Frontend)

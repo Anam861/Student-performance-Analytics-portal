@@ -54,12 +54,16 @@ All screens (except Login) share a common sidebar layout.
   - Dropdown selector for rapid prototype switching: "Quick Login As..." (Admin, Teacher, Student).
   - Button: "Authenticate Securely".
 
+![Figma Login Screen Wireframe](assets/figma_login.png)
+
 ### 2. Admin Dashboard View
 * **Layout**:
   - **Hero Row**: 4 Metric Cards (Total Students, Total Teachers, Avg Attendance, System Status).
   - **Main Area**: 2-Column Split.
     - Left Column (60%): Interactive User Management list (Create/Delete user logins, select roles).
     - Right Column (40%): Global performance metrics panel showing GPA averages across classes.
+
+![Figma Admin Dashboard Wireframe](assets/figma_admin.png)
 
 ### 3. Teacher Dashboard View
 * **Layout**:
@@ -69,9 +73,13 @@ All screens (except Login) share a common sidebar layout.
     - Left Column (70%): Grade book management grid listing student names, registration IDs, course grades, with an inline edit panel.
     - Right Column (30%): Radial gauge showing target class progress metrics and an attendance logger panel.
 
+![Figma Teacher Dashboard Wireframe](assets/figma_teacher.png)
+
 ### 4. Student Portal View
 * **Layout**:
   - **Hero Row**: 3 Metric Cards (Your GPA, Attendance %, Completed Courses).
   - **Main Area**: 2-Column Split.
     - Left Column (60%): Progress chart mapping exam-type grades sequentially and a complete list of course marks.
     - Right Column (40%): Feed of teacher comments, announcements, and a visual calendar showing attendance logs (P, A, L).
+
+![Figma Student Dashboard Wireframe](assets/figma_student.png)
