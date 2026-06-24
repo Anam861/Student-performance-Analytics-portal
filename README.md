@@ -50,18 +50,25 @@ Follow these steps to initialize and start the application locally:
 Unzip the folder to your desired local workspace.
 
 ### 2. Install Dependencies
-Run the install command in both the frontend and backend folders to fetch all node packages.
+You can install dependencies for both the frontend and backend with a single command from the project root directory:
+```bash
+npm run setup
+```
+
+Alternatively, you can install them manually by running:
 
 **Frontend:**
 ```bash
 cd frontend
 npm install
+cd ..
 ```
 
 **Backend:**
 ```bash
 cd backend
 npm install
+cd ..
 ```
 
 ### 3. Set Up Environment Variables
